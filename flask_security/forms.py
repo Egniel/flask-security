@@ -344,7 +344,7 @@ class TwoFactorVerifyCodeForm(Form, UserEmailFormMixin):
         elif 'password_confirmed' in session:
             self.user = current_user
         else:
-            os.abort()
+            return False
         # codes sent by sms or mail will be valid for another window cycle
         if session['primary_method'] == 'google_authenticator':
             self.window = config_value('TWO_FACTOR_GOOGLE_AUTH_VALIDITY')
