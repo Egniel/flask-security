@@ -245,6 +245,30 @@ msgstr ""
 msgid "Send Login Link"
 msgstr ""
 
+#: flask_security/forms.py:387
+msgid "Trouble Accessing Your Account?"
+msgstr ""
+
+#: flask_security/forms.py:388
+msgid "Can not access mobile device?"
+msgstr ""
+
+#: flask_security/forms.py:389
+msgid "Can not access mail account?"
+msgstr ""
+
+#: flask_security/forms.py:389
+msgid "Can not access mail account?"
+msgstr ""
+
+#: flask_security/forms.py:314
+msgid "Set Up Using Google Authenticator"
+msgstr ""
+
+#: flask_security/forms.py:316
+msgid "Leave Two-Factor Auth unset"
+msgstr ""
+
 #: flask_security/templates/security/_menu.html:2
 msgid "Menu"
 msgstr ""

@@ -254,6 +254,26 @@ msgstr "Сменить пароль"
 msgid "Send Login Link"
 msgstr "Отправить ссылку для входа"
 
+#: flask_security/forms.py:387
+msgid "Trouble Accessing Your Account?"
+msgstr "Проблемы со входом в аккаунт?"
+
+#: flask_security/forms.py:388
+msgid "Can not access mobile device?"
+msgstr "Нет доступа к мобильному устройству"
+
+#: flask_security/forms.py:389
+msgid "Can not access mail account?"
+msgstr "Нет доступа к почтовому ящику"
+
+#: flask_security/forms.py:314
+msgid "Set Up Using Google Authenticator"
+msgstr "Включить 2FA"
+
+#: flask_security/forms.py:316
+msgid "Leave Two-Factor Auth unset"
+msgstr "Настроить позже"
+
 #: flask_security/templates/security/_menu.html:2
 msgid "Menu"
 msgstr "Меню"
