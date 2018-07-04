@@ -311,9 +311,9 @@ class TwoFactorSetupForm(Form, UserEmailFormMixin):
 
     setup = RadioField('Available Methods', choices=[('mail', _('Set Up Using Mail')),
                                                      ('google_authenticator',
-                                                      _('Set Up Using Google Authenticator')),
+                                                      _('Enable 2FA')),
                                                      ('sms', _('Set Up Using SMS')),
-                                                     ('off', _('Leave Two-Factor Auth unset')),])
+                                                     ('off', _('Set up later')),])
     phone = StringField(get_form_field_label('phone'))
     submit = SubmitField(get_form_field_label('sumbit'))
 
